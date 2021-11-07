@@ -4,6 +4,7 @@ import { LogServiceB } from "../services/LogServiceB";
 export enum Dependencies {
   LogServiceA = "LogServiceA",
   LogServiceB = "LogServiceB",
+  LogServiceC = "LogServiceC",
 }
 
 export const DependenciesMapping = [
